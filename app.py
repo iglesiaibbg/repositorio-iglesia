@@ -29,7 +29,7 @@ def mostrar_pdf(ruta_archivo):
     else:
         st.warning(f"Falta subir el archivo PDF en: {ruta_archivo}")
 
-st.title("📖 Repertorio de la Iglesia")
+st.title("📖 Repertorio Alabanzas IBBG")
 
 # --- SECCIÓN: CREADOR DE SETLISTS ---
 st.header("🎵 Crear Lista de Reproducción (Setlist)")
