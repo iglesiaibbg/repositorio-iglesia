@@ -11,10 +11,12 @@ st.set_page_config(page_title="Repertorio Iglesia", layout="centered")
 # 1. Base de datos
 canciones = {
     "El me sostendrá": {"etiquetas": ["#adoracion", "#himno"], "archivo_base": "el_me_sostendra"},
-    "Suenan dulces himnos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "suenan_dulces_himnos"}
+    "Suenan dulces himnos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "suenan_dulces_himnos"},
+    "Recibimos": {"etiquetas": ["#cena", "#redencion"], "archivo_base": "recibimos"}
+    "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "somos_siempre_tuyos"}
 }
 
-# --- LA NUEVA FUNCIÓN MAGICA ---
+# --- FUNCION PDF --> IMAGEN ---
 def mostrar_pdf(ruta_archivo):
     if os.path.exists(ruta_archivo):
         # Abrimos el PDF
