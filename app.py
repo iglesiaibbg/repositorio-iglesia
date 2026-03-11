@@ -2,6 +2,7 @@ import streamlit as st
 import base64
 import os
 import io
+import fitz  # Esta es la librería PyMuPDF que convierte PDF a imagen
 from pypdf import PdfWriter
 
 # Configuración inicial de la página
@@ -13,30 +14,30 @@ canciones = {
     "Suenan dulces himnos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "suenan_dulces_himnos"}
 }
 
-# Función para renderizar el PDF
+# --- LA NUEVA FUNCIÓN MAGICA ---
 def mostrar_pdf(ruta_archivo):
     if os.path.exists(ruta_archivo):
-        with open(ruta_archivo, "rb") as f:
-            base64_pdf = base64.b64encode(f.read()).decode('utf-8')
-        pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="650" type="application/pdf"></iframe>'
-        st.markdown(pdf_display, unsafe_allow_html=True)
+        # Abrimos el PDF
+        doc = fitz.open(ruta_archivo)
+        # Convertimos cada página en una imagen de alta calidad
+        for page in doc:
+            pix = page.get_pixmap(dpi=150) 
+            # Mostramos la imagen en pantalla, ajustada al ancho del celular/computador
+            st.image(pix.tobytes(), use_container_width=True)
     else:
         st.warning(f"Falta subir el archivo PDF en: {ruta_archivo}")
 
-st.title("📖 Repertorio Alabanzas IBBG")
+st.title("📖 Repertorio de la Iglesia")
 
-# --- NUEVA SECCIÓN: CREADOR DE SETLISTS ---
+# --- SECCIÓN: CREADOR DE SETLISTS ---
 st.header("🎵 Crear Lista de Reproducción (Setlist)")
 st.write("Selecciona las canciones para el servicio y descarga un solo PDF con todas.")
 
-# Seleccionar canciones para la lista
 playlist_seleccionada = st.multiselect("Agregar canciones a la lista:", options=list(canciones.keys()))
 
 if playlist_seleccionada:
-    # Elegir si el PDF unificado será para músicos o cantantes
     formato_playlist = st.radio("Formato del Setlist:", ["Modo Cantante (Solo Letra)", "Modo Músico (Con Acordes)"], horizontal=True)
     
-    # Lógica para unir los PDFs
     merger = PdfWriter()
     archivos_faltantes = []
     
@@ -53,7 +54,6 @@ if playlist_seleccionada:
     if archivos_faltantes:
         st.error(f"No se puede generar el PDF. Faltan estos archivos: {', '.join(archivos_faltantes)}")
     else:
-        # Guardar el PDF unificado en la memoria temporal para descargarlo
         pdf_final = io.BytesIO()
         merger.write(pdf_final)
         
@@ -65,21 +65,20 @@ if playlist_seleccionada:
         )
 st.divider()
 
-# --- SECCIÓN ORIGINAL: REPOSITORIO Y FILTROS ---
+# --- SECCIÓN: REPOSITORIO Y FILTROS ---
 st.header("📚 Repositorio Completo")
 
 todas_las_etiquetas = list(set(tag for info in canciones.values() for tag in info["etiquetas"]))
 
 st.sidebar.header("Filtros")
 st.sidebar.write("Deja el filtro vacío para ver todas las canciones.")
-# El filtro ahora empieza vacío (limpio visualmente)
+
 etiquetas_seleccionadas = st.sidebar.multiselect(
     "Selecciona los temas:", 
     options=todas_las_etiquetas,
     default=[] 
 )
 
-# Lógica de filtrado dinámico: Si está vacío, muestra todas. Si no, filtra.
 if not etiquetas_seleccionadas:
     canciones_filtradas = list(canciones.keys())
 else:
@@ -88,7 +87,6 @@ else:
         if any(tag in etiquetas_seleccionadas for tag in info["etiquetas"])
     ]
 
-# Mostrar la lista de canciones con sus desplegables
 if canciones_filtradas:
     st.write(f"### Mostrando {len(canciones_filtradas)} canciones:")
     
@@ -100,6 +98,7 @@ if canciones_filtradas:
             sufijo = "_acordes.pdf" if mostrar_acordes else "_letra.pdf"
             ruta_pdf = f"pdfs/{base_name}{sufijo}"
             
+            # Aquí se llama a la nueva función que renderiza imágenes
             mostrar_pdf(ruta_pdf)
 else:
     st.info("No hay canciones que coincidan con los filtros seleccionados.")
