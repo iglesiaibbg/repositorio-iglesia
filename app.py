@@ -13,7 +13,12 @@ canciones = {
     "El me sostendrá": {"etiquetas": ["#adoracion", "#himno"], "archivo_base": "el_me_sostendra"},
     "Suenan dulces himnos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "suenan_dulces_himnos"},
     "Recibimos": {"etiquetas": ["#cena", "#redencion"], "archivo_base": "recibimos"},
-    "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "somos_siempre_tuyos"}
+    "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "somos_siempre_tuyos"},
+    "Rey Soberano": {"etiquetas": ["#15_marzo"], "archivo_base": "rey_soberano"},
+    "Santo Espíritu": {"etiquetas": ["#15_marzo"], "archivo_base": "santo_espiritu"},
+    "Cristo Victorioso": {"etiquetas": ["#15_marzo"], "archivo_base": "cristo_victorioso"},
+    "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
+    "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
