@@ -19,11 +19,11 @@ canciones = {
     "Cristo Victorioso": {"etiquetas": ["#15_marzo"], "archivo_base": "cristo_victorioso"},
     "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
-    "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"}.
+    "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
     "El vive hoy": {"etiquetas": ["#22_marzo"], "archivo_base": "el_vive_hoy"},
     "Eternamente exaltado": {"etiquetas": ["#22_marzo"], "archivo_base": "eternamente_exaltado"},
     "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"},
-    "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"},
+    "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
