@@ -27,7 +27,8 @@ canciones = {
     "Glorioso intercambio": {"etiquetas": ["#29_marzo"], "archivo_base": "glorioso_intercambio"},
     "Profundo amor del Padre Dios": {"etiquetas": ["#29_marzo"], "archivo_base": "profundo_amor_del_padre_dios"},
     "Por todo el mundo": {"etiquetas": ["#29_marzo"], "archivo_base": "por_todo_el_mundo"},
-    "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"}
+    "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"},
+    "Somos siempre tuyos": {"etiquetas": ["#29_marzo"], "archivo_base": "somos_siempre_tuyos"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
