@@ -16,14 +16,18 @@ canciones = {
     "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "somos_siempre_tuyos"},
     "Rey Soberano": {"etiquetas": ["#15_marzo"], "archivo_base": "rey_soberano"},
     "Santo Espíritu": {"etiquetas": ["#15_marzo"], "archivo_base": "santo_espiritu"},
-    "Cristo Victorioso": {"etiquetas": ["#15_marzo"], "archivo_base": "cristo_victorioso"},
+    "Cristo Victorioso": {"etiquetas": ["#29_marzo"], "archivo_base": "cristo_victorioso"},
     "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
     "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
     "El vive hoy": {"etiquetas": ["#22_marzo"], "archivo_base": "el_vive_hoy"},
     "Eternamente exaltado": {"etiquetas": ["#22_marzo"], "archivo_base": "eternamente_exaltado"},
     "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"},
-    "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"}
+    "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"},
+    "Glorioso intercambio": {"etiquetas": ["#29_marzo"], "archivo_base": "glorioso_intercambio"},
+    "Profundo amor del Padre Dios": {"etiquetas": ["#29_marzo"], "archivo_base": "profundo_amor_del_padre_dios"},
+    "Por todo el mundo": {"etiquetas": ["#29_marzo"], "archivo_base": "por_todo_el_mundo"},
+    "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
