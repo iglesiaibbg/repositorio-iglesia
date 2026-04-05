@@ -11,7 +11,6 @@ st.set_page_config(page_title="Repertorio Iglesia", layout="centered")
 # 1. Base de datos
 canciones = {
     "El me sostendrá": {"etiquetas": ["#adoracion", "#himno"], "archivo_base": "el_me_sostendra"},
-    "Suenan dulces himnos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "suenan_dulces_himnos"},
     "Recibimos": {"etiquetas": ["#cena", "#redencion"], "archivo_base": "recibimos"},
     "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "somos_siempre_tuyos"},
     "Rey Soberano": {"etiquetas": ["#15_marzo"], "archivo_base": "rey_soberano"},
@@ -20,7 +19,7 @@ canciones = {
     "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
     "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
-    "El vive hoy": {"etiquetas": ["#22_marzo"], "archivo_base": "el_vive_hoy"},
+    "El vive hoy": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "el_vive_hoy"},
     "Eternamente exaltado": {"etiquetas": ["#22_marzo"], "archivo_base": "eternamente_exaltado"},
     "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"},
     "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"},
@@ -28,7 +27,16 @@ canciones = {
     "Profundo amor del Padre Dios": {"etiquetas": ["#29_marzo"], "archivo_base": "profundo_amor_del_padre_dios"},
     "Por todo el mundo": {"etiquetas": ["#29_marzo"], "archivo_base": "por_todo_el_mundo"},
     "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"},
-    "Somos siempre tuyos": {"etiquetas": ["#29_marzo"], "archivo_base": "somos_siempre_tuyos"}
+    "Somos siempre tuyos": {"etiquetas": ["#29_marzo"], "archivo_base": "somos_siempre_tuyos"},
+    "Gracias Cristo": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "gracias_cristo"},
+    "Sublime Gracia": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "sublime_gracia"},
+    "Ante el Trono celestial": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "ante_el_trono_celestial"},
+    "Hay libertad": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "hay_libertad"},
+    "La sangre de Jesus": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "la_sangre_de_jesus"},
+    "El poder de la Cruz": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "el_poder_de_la_cruz"},
+    "En el monte calvario": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "en_el_monte_calvario"},
+    "Porque El vive": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "porque_el_vive"},
+    "Eternamente exaltado": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "eternamente_exaltado"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
