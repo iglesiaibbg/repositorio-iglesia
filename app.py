@@ -26,6 +26,7 @@ canciones = {
     "Habla, Oh Dios": {"etiquetas": ["#12_abril"], "archivo_base": "habla_oh_dios"},
     "Hay libertad": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "hay_libertad"},
     "La sangre de Jesus": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "la_sangre_de_jesus"},
+    "Muestra a Cristo": {"etiquetas": ["#12_abril"], "archivo_base": "muestra_a_cristo"},
     "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
     "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"},
     "Por todo el mundo": {"etiquetas": ["#29_marzo"], "archivo_base": "por_todo_el_mundo"},
