@@ -12,7 +12,9 @@ st.set_page_config(page_title="Repertorio Iglesia", layout="centered")
 canciones = {
     "Ante el Trono celestial": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "ante_el_trono_celestial"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
+    "Contempla a Dios": {"etiquetas": ["#12_abril"], "archivo_base": "contempla_a_dios"},
     "Cristo Victorioso": {"etiquetas": ["#29_marzo"], "archivo_base": "cristo_victorioso"},
+    "Dejanos ver": {"etiquetas": ["#12_abril"], "archivo_base": "dejanos_ver"},
     "El me sostendrá": {"etiquetas": ["#adoracion", "#himno"], "archivo_base": "el_me_sostendra"},
     "El poder de la Cruz": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "el_poder_de_la_cruz"},
     "El vive hoy": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "el_vive_hoy"},
@@ -21,6 +23,7 @@ canciones = {
     "Eternamente exaltado": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "eternamente_exaltado"},
     "Glorioso intercambio": {"etiquetas": ["#29_marzo"], "archivo_base": "glorioso_intercambio"},
     "Gracias Cristo": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "gracias_cristo"},
+    "Habla, Oh Dios": {"etiquetas": ["#12_abril"], "archivo_base": "habla_oh_dios"},
     "Hay libertad": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "hay_libertad"},
     "La sangre de Jesus": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "la_sangre_de_jesus"},
     "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
@@ -31,12 +34,14 @@ canciones = {
     "Recibimos": {"etiquetas": ["#cena", "#redencion"], "archivo_base": "recibimos"},
     "Rey Soberano": {"etiquetas": ["#15_marzo"], "archivo_base": "rey_soberano"},
     "Santo Espíritu": {"etiquetas": ["#15_marzo"], "archivo_base": "santo_espiritu"},
+    "Santo, Santo, Santo": {"etiquetas": ["#12_abril"], "archivo_base": "santo_santo_santo"},
     "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"},
     "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz"], "archivo_base": "somos_siempre_tuyos"},
     "Somos siempre tuyos": {"etiquetas": ["#29_marzo"], "archivo_base": "somos_siempre_tuyos"},
     "Sublime Gracia": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "sublime_gracia"},
     "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
-    "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"}
+    "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"},
+    "Venga tu reino": {"etiquetas": ["#12_abril"], "archivo_base": "venga_tu_reino"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
