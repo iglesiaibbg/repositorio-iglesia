@@ -21,6 +21,7 @@ canciones = {
     "En el monte calvario": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "en_el_monte_calvario"},
     "Eternamente exaltado": {"etiquetas": ["#22_marzo"], "archivo_base": "eternamente_exaltado"},
     "Eternamente exaltado": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "eternamente_exaltado"},
+    "Fuente de la vida Eterna": {"etiquetas": ["#3_mayo"], "archivo_base": "fuente_de_la_vida_eterna"},
     "Glorioso intercambio": {"etiquetas": ["#29_marzo"], "archivo_base": "glorioso_intercambio"},
     "Gracias Cristo": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "gracias_cristo"},
     "Habla, Oh Dios": {"etiquetas": ["#12_abril"], "archivo_base": "habla_oh_dios"},
