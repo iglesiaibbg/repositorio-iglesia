@@ -13,6 +13,7 @@ canciones = {
     "Ante el Trono celestial": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "ante_el_trono_celestial"},
     "Ciudad de Dios": {"etiquetas": ["#14_junio"], "archivo_base": "ciudad_de_dios"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
+    "Completo está": {"etiquetas": ["#21_junio"], "archivo_base": "completo_esta"},
     "Contempla a Dios": {"etiquetas": ["#12_abril"], "archivo_base": "contempla_a_dios"},
     "Cristo Victorioso": {"etiquetas": ["#29_marzo"], "archivo_base": "cristo_victorioso"},
     "Dejanos ver": {"etiquetas": ["#12_abril"], "archivo_base": "dejanos_ver"},
@@ -31,6 +32,8 @@ canciones = {
     "La sangre de Jesus": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "la_sangre_de_jesus"},
     "Levantate Iglesia": {"etiquetas": ["#14_junio"], "archivo_base": "levantate_iglesia"},
     "Muestra a Cristo": {"etiquetas": ["#12_abril"], "archivo_base": "muestra_a_cristo"},
+    "No soy yo, sino Cristo en mí": {"etiquetas": ["#21_junio"], "archivo_base": "no_soy_yo_sino_cristo_en_mi"},
+    "Nuestro Dios": {"etiquetas": ["#21_junio"], "archivo_base": "nuestro_dios"},
     "Oh Gran Dios": {"etiquetas": ["#15_marzo"], "archivo_base": "oh_gran_dios"},
     "Por encima del sol": {"etiquetas": ["#22_marzo"], "archivo_base": "por_encima_del_sol"},
     "Por todo el mundo": {"etiquetas": ["#29_marzo"], "archivo_base": "por_todo_el_mundo"},
@@ -46,7 +49,7 @@ canciones = {
     "Todo por tu gloria": {"etiquetas": ["#14_junio"], "archivo_base": "todo_por_tu_gloria"},
     "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
     "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"},
-    "Venga tu reino": {"etiquetas": ["#12_abril"], "archivo_base": "venga_tu_reino"}
+    "Venga tu reino": {"etiquetas": ["#21_junio"], "archivo_base": "venga_tu_reino"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
