@@ -42,7 +42,7 @@ canciones = {
     "Recibimos": {"etiquetas": ["#cena", "#redencion"], "archivo_base": "recibimos"},
     "Rey Soberano": {"etiquetas": ["#15_marzo"], "archivo_base": "rey_soberano"},
     "Santo Espíritu": {"etiquetas": ["#15_marzo"], "archivo_base": "santo_espiritu"},
-    "Santo, Santo, Santo": {"etiquetas": ["#12_abril"], "archivo_base": "santo_santo_santo"},
+    "Santo, Santo, Santo": {"etiquetas": ["#21_junio"], "archivo_base": "santo_santo_santo"},
     "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"},
     "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz", "#14_junio"], "archivo_base": "somos_siempre_tuyos"},
     "Sublime Gracia": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "sublime_gracia"},
