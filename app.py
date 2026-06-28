@@ -17,18 +17,19 @@ canciones = {
     "Contempla a Dios": {"etiquetas": ["#12_abril"], "archivo_base": "contempla_a_dios"},
     "Cristo Victorioso": {"etiquetas": ["#29_marzo"], "archivo_base": "cristo_victorioso"},
     "Dejanos ver": {"etiquetas": ["#12_abril"], "archivo_base": "dejanos_ver"},
+    "El Dios que adoramos": {"etiquetas": ["#28_junio"], "archivo_base": "el_dios_que_adoramos"},
     "El me sostendrá": {"etiquetas": ["#adoracion", "#himno"], "archivo_base": "el_me_sostendra"},
     "El poder de la Cruz": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "el_poder_de_la_cruz"},
     "El vive hoy": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "el_vive_hoy"},
     "En el monte calvario": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "en_el_monte_calvario"},
-    "Eternamente exaltado": {"etiquetas": ["#22_marzo"], "archivo_base": "eternamente_exaltado"},
-    "Eternamente exaltado": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "eternamente_exaltado"},
+    "Eternamente exaltado": {"etiquetas": ["#28_junio"], "archivo_base": "eternamente_exaltado"},
     "Fuente de la vida Eterna": {"etiquetas": ["#3_mayo"], "archivo_base": "fuente_de_la_vida_eterna"},
     "Fue tu gracia": {"etiquetas": ["#14_junio"], "archivo_base": "fue_tu_gracia"},
     "Glorioso intercambio": {"etiquetas": ["#29_marzo"], "archivo_base": "glorioso_intercambio"},
     "Gracias Cristo": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "gracias_cristo"},
     "Habla, Oh Dios": {"etiquetas": ["#12_abril"], "archivo_base": "habla_oh_dios"},
     "Hay libertad": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "hay_libertad"},
+    "La roca de mi Salvación": {"etiquetas": ["#28_junio"], "archivo_base": "la_roca_de_mi_salvacion"},
     "La sangre de Jesus": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "la_sangre_de_jesus"},
     "Levantate Iglesia": {"etiquetas": ["#14_junio"], "archivo_base": "levantate_iglesia"},
     "Muestra a Cristo": {"etiquetas": ["#12_abril"], "archivo_base": "muestra_a_cristo"},
@@ -46,10 +47,11 @@ canciones = {
     "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"},
     "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz", "#14_junio"], "archivo_base": "somos_siempre_tuyos"},
     "Sublime Gracia": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "sublime_gracia"},
-    "Todo por tu gloria": {"etiquetas": ["#14_junio"], "archivo_base": "todo_por_tu_gloria"},
+    "Todo por tu gloria": {"etiquetas": ["#28_junio"], "archivo_base": "todo_por_tu_gloria"},
     "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
     "Un siervo para tu gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "un_siervo_para_tu_gloria"},
-    "Venga tu reino": {"etiquetas": ["#21_junio"], "archivo_base": "venga_tu_reino"}
+    "Venga tu reino": {"etiquetas": ["#21_junio"], "archivo_base": "venga_tu_reino"},
+    "Vivir es Cristo": {"etiquetas": ["#28_junio"], "archivo_base": "vivir_es_cristo"}
 }
 
 # --- FUNCION PDF --> IMAGEN ---
