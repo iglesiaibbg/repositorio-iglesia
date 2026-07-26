@@ -11,7 +11,7 @@ st.set_page_config(page_title="Repertorio Iglesia", layout="centered")
 # 1. Base de datos
 canciones = {
     "Ante el Trono celestial": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "ante_el_trono_celestial"},
-    "Ciudad de Dios": {"etiquetas": ["#14_junio"], "archivo_base": "ciudad_de_dios"},
+    "Ciudad de Dios": {"etiquetas": ["#26_julio"], "archivo_base": "ciudad_de_dios"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
     "Completo está": {"etiquetas": ["#21_junio"], "archivo_base": "completo_esta"},
     "Contempla a Dios": {"etiquetas": ["#12_abril"], "archivo_base": "contempla_a_dios"},
