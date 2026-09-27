@@ -11,7 +11,7 @@ st.set_page_config(page_title="Repertorio Iglesia", layout="centered")
 # 1. Base de datos
 canciones = {
     "Ante el Trono celestial": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "ante_el_trono_celestial"},
-    "Ciudad de Dios": {"etiquetas": ["#26_julio"], "archivo_base": "ciudad_de_dios"},
+    "Ciudad de Dios": {"etiquetas": ["#27_septiembre"], "archivo_base": "ciudad_de_dios"},
     "Completo en Ti": {"etiquetas": ["#15_marzo"], "archivo_base": "completo_en_ti"},
     "Completo está": {"etiquetas": ["#21_junio"], "archivo_base": "completo_esta"},
     "Contempla a Dios": {"etiquetas": ["#12_abril"], "archivo_base": "contempla_a_dios"},
@@ -32,8 +32,9 @@ canciones = {
     "Hay libertad": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "hay_libertad"},
     "La roca de mi Salvación": {"etiquetas": ["#28_junio"], "archivo_base": "la_roca_de_mi_salvacion"},
     "La sangre de Jesus": {"etiquetas": ["#26_julio"], "archivo_base": "la_sangre_de_jesus"},
-    "Levantate Iglesia": {"etiquetas": ["#26_julio"], "archivo_base": "levantate_iglesia"},
+    "Levantate Iglesia": {"etiquetas": ["#27_septiembre"], "archivo_base": "levantate_iglesia"},
     "Mi Esperanza está en Jesus": {"etiquetas": ["#26_julio"], "archivo_base": "mi_esperanza_esta_en_jesus"},
+    "MIX": {"etiquetas": ["#26_septiembre"], "archivo_base": "MIX"},
     "Muestra a Cristo": {"etiquetas": ["#12_abril"], "archivo_base": "muestra_a_cristo"},
     "No soy yo, sino Cristo en mí": {"etiquetas": ["#21_junio"], "archivo_base": "no_soy_yo_sino_cristo_en_mi"},
     "Nuestro Dios": {"etiquetas": ["#21_junio"], "archivo_base": "nuestro_dios"},
@@ -47,7 +48,7 @@ canciones = {
     "Santo Espíritu": {"etiquetas": ["#15_marzo"], "archivo_base": "santo_espiritu"},
     "Santo, Santo, Santo": {"etiquetas": ["#21_junio"], "archivo_base": "santo_santo_santo"},
     "Solo a El": {"etiquetas": ["#29_marzo"], "archivo_base": "solo_a_el"},
-    "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz", "#26_julio"], "archivo_base": "somos_siempre_tuyos"},
+    "Somos siempre tuyos": {"etiquetas": ["#redencion", "#cruz", "#27_septiembre"], "archivo_base": "somos_siempre_tuyos"},
     "Sublime Gracia": {"etiquetas": ["#SemanaSanta2026"], "archivo_base": "sublime_gracia"},
     "Todo por tu gloria": {"etiquetas": ["#28_junio"], "archivo_base": "todo_por_tu_gloria"},
     "Tuya es la Gloria": {"etiquetas": ["#22_marzo"], "archivo_base": "tuya_es_la_gloria"},
