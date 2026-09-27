@@ -34,7 +34,7 @@ canciones = {
     "La sangre de Jesus": {"etiquetas": ["#26_julio"], "archivo_base": "la_sangre_de_jesus"},
     "Levantate Iglesia": {"etiquetas": ["#27_septiembre"], "archivo_base": "levantate_iglesia"},
     "Mi Esperanza está en Jesus": {"etiquetas": ["#26_julio"], "archivo_base": "mi_esperanza_esta_en_jesus"},
-    "MIX": {"etiquetas": ["#26_septiembre"], "archivo_base": "MIX"},
+    "MIX": {"etiquetas": ["#27_septiembre"], "archivo_base": "MIX"},
     "Muestra a Cristo": {"etiquetas": ["#12_abril"], "archivo_base": "muestra_a_cristo"},
     "No soy yo, sino Cristo en mí": {"etiquetas": ["#21_junio"], "archivo_base": "no_soy_yo_sino_cristo_en_mi"},
     "Nuestro Dios": {"etiquetas": ["#21_junio"], "archivo_base": "nuestro_dios"},
@@ -62,7 +62,7 @@ def mostrar_pdf(ruta_archivo):
     if os.path.exists(ruta_archivo):
         # Abrimos el PDF
         doc = fitz.open(ruta_archivo)
-        # Convertimos cada página en una imagen de alta calidad
+        # Convertimos cada página en una imagen de alta resolucion
         for page in doc:
             pix = page.get_pixmap(dpi=150) 
             # Mostramos la imagen en pantalla, ajustada al ancho del celular/computador
